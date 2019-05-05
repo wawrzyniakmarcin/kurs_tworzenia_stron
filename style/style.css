@@ -1,0 +1,137 @@
+/* Kolumny, kontener, sekcje */
+.col-one-third, .col-half {
+	width: 100%;
+	float: none;
+}
+
+@media screen and (min-width: 960px) {
+	.col-one-third {
+	width: 33.3333%;
+	float: left;
+	}
+
+	.col-half {
+		width: 50%;
+		float: left;
+	}
+}
+
+
+section {
+	clear: both;
+	padding: 90px 0;
+	overflow: auto;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+/* Przyciski */
+.button {
+	display: inline-block;
+	padding: 8px 20px;
+	margin: 16px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+}
+.button-light {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.button-dark {
+	background: #A1D76F;
+	color: #FFFFFF;
+}
+
+/* Nagłówek strony */
+.top {
+	height: 60px;
+	background: #34495E;
+}
+
+.top a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 60px;
+}
+
+.main-menu {
+	float: right;
+}
+.main-menu li {
+	float: left;
+	line-height: 60px;
+	padding: 0 10px;
+}
+
+/* Banner */
+.banner {
+	color: #FFFFFF;
+	background: #000000;
+	padding: 200px 0;
+	background: url("../img/top.jpg") 0 0;
+}
+
+.banner h1 {
+	margin-bottom: 30px;
+}
+
+/* Sekcja Intro */
+.intro img {
+	margin-bottom: 32px;
+	width: 180px;
+	height: 180px;
+}
+
+.intro h3 {
+	color: #A1D76F;
+}
+
+/* sekcja Promocje */
+.promo {
+	background: #D15555;
+}
+
+.promo h2 {
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.promo p {
+	color: #EEEEEE;
+}
+
+/* Sekcja Kontakt */
+.contact input {
+	margin-bottom: 16px;
+	border-radius: 2px;
+	border: 1px solid #000000;
+	padding: 8px;
+	width: 80%;
+}
+
+.contact .col-half {
+	margin-top: 16px;
+}
+
+/* Stopka */
+.site-footer {
+	background: #000000;
+	color: #FFFFFF;
+	padding: 16px 0;
+}
